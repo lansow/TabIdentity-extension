@@ -3,6 +3,7 @@ import { removeCookies, setCookies, getCookies } from "../services/cookies";
 import { clearStorage, restoreStorage } from "../services/restore";
 import {
   setActiveProfile,
+  getActiveProfile,
   addProfile,
   getProfile,
   updateProfile,
